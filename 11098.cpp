@@ -19,7 +19,7 @@ int main()
             if(c>m_c)
             {
                 m_c = c;
-                strcpy(s_name,name);
+                strcpy(s_name,name); // strcpy 함수 찾아보기
             }
         }
         printf("%s\n",s_name);
