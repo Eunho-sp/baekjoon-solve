@@ -20,7 +20,7 @@ int main()
             {
                 atm = a[l];
                 a[l] = a[l+1];
-                a[l+1] = atm;
+                a[j+1] = atm;
             }
         }
     }
